@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;1,500&family=Poppins&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pixelify+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;1,500&family=Kanit&family=Poppins&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap');
+body 
+{
+    display: flexbox;
+    background-color: #444342;
+    overflow: hidden;
+    text-align: justify;
+}
+h1
+{
+    text-align: center;
+    font-size: 5vw; /* Utiliza una unidad relativa para el tamaño del texto */
+    color: white;
+    font-family: 'Tektur', sans-serif;
+    margin: 2vh 0; /* Añade un pequeño margen arriba y abajo */
+}
+div
+{
+    text-align: center;
+    margin-bottom: auto;
+}
+input
+{
+    font-size: 3vw; /* Utiliza una unidad relativa para el tamaño del texto del input */
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 1vh 4vh; /* Ajusta el padding del input para que sea más cómodo en dispositivos móviles */
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+button
+{
+    font-size: 2vw; /* Utiliza una unidad relativa para el tamaño del texto del input */
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 1vh 2vw; /* Ajusta el padding del input para que sea más cómodo en dispositivos móviles */
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color:#7E7C7B;
+}
+/* Media queries para ajustar estilos en pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 8vw;
+    }
+
+    input,
+    button {
+        font-size: 6vw;
+        padding: 2vh 5vw;
+    }
+}
+
+/* Media queries para pantallas de tamaño medio */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 4vw;
+    }
+
+    input,
+    button {
+        font-size: 3vw;
+        padding: 2vh;
+    }
+}
+
